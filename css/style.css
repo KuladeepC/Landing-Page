@@ -1,0 +1,121 @@
+*{  box-sizing: border-box;
+    padding: 0;
+    margin :0;
+    justify-content: center;
+}
+.section1{
+    background-color:#1F2937 ;
+    font-family: Roboto;
+}
+.section1-logo{
+    display: flex;
+    list-style-type:none;
+    justify-content: centre;
+    margin-left :55px;
+    margin-right:50px;
+}
+.link{
+    color :whitesmoke;
+    align-content: center;
+    margin : 16px;
+}
+.link.logo{
+    justify-self: flex-start;
+    color :whitesmoke;
+    flex :1
+}
+.section1-content{
+    display : flex ;
+    justify-content: center;
+    flex :1;
+    padding-top: 80px;
+}
+.section1-h{
+    color:whitesmoke;
+    margin :10px;
+}
+.section1-p{
+    color :whitesmoke;
+    margin :10px;
+    overflow-wrap:break-word ;
+    width :75%;
+}
+button {
+    background-color: #3882F6;
+    color :whitesmoke;
+    margin :16px;
+    border-radius: 6px;
+    width : 100px;
+    height:30px;
+}
+.section1-image{
+    justify-content: centre;
+    width :fit-content;
+    height: fit-content;
+    
+}
+.profile{
+    border-radius: 10px;
+    height :200px;
+    width:300px;
+    margin:10px;
+}
+.block{
+    background-color: aliceblue;
+}
+.section2.heading{
+    padding:16px;
+    align-items: 25px;
+    margin-left:30%;
+}
+.section2.flex-container{
+    display:flex;
+    flex-direction: row;
+    margin :10px;
+    font-family: Roboto;
+}
+.section2.item{
+    margin :25px;
+}
+.section3{
+    justify-items: center;
+    background-color: #E5E7EB;
+    padding :30px;
+}
+.section3-p{
+    font-size: 25px;
+    font-style: italic;
+    color: #1F2937;
+    padding :35px
+}
+.section3-h{
+    padding: 10px;
+    margin-right: 80px;
+    justify-self: flex-end;
+    font-style: italic;
+    color: #1F2937;
+}
+.section4{
+    justify-items: center;
+    padding-bottom: 40px;
+}
+.section4-flexContainer{
+    display: flex;
+    flex :1;
+    padding-top :50px
+}
+.section4-button
+{
+    background-color: #3882F6;
+    color :whitesmoke;
+    border-radius: 6px;
+    width : 100px;
+    height:30px;
+    margin-left:75%;
+}
+.last{
+    padding: 20px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-items: center;
+}
